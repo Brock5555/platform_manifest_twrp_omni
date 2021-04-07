@@ -10,6 +10,8 @@
   <remote  name="omnirom"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
+  <remote  name="Brock5555"
+           fetch="https://github.com/Brock5555" /> 
 
   <remote  name="SHRP"
              fetch="https://github.com/SHRP" />
@@ -27,7 +29,7 @@
     <linkfile src="tools" dest="build/tools" />
     <linkfile src="shrp" dest="build/shrp" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="omnirom" revision="android-10" >
+  <project path="build/soong" name="android_build_soong" remote="Brock5555" revision="android-10" >
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
